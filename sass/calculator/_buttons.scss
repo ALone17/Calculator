@@ -1,0 +1,90 @@
+.buttons {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 1fr;
+  font-size: 3.2rem;
+  &__numbers {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .number:link,
+    .number:visited {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      text-decoration: none;
+      color: #fff;
+      border: 0.1rem solid transparent;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      .number:link,
+      .number:visited {
+        color: #b5179e;
+      }
+      .number:hover {
+        color: #f72585;
+        border-color: #b5179e;
+      }
+      .number:active {
+        background-color: #b5179e;
+      }
+    }
+  }
+  &__operations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    .operation:link,
+    .operation:visited {
+      text-decoration: none;
+      padding: 1rem;
+      color: #fff;
+      border: 0.1rem solid transparent;
+      transition: all 0.3s;
+    }
+    &:hover {
+      .operation:link,
+      .operation:visited {
+        color: #72efdd;
+      }
+      .operation:hover {
+        color: #72efdd;
+        border-color: #72efdd;
+      }
+      .operation:active {
+        background-color: #72efdd;
+      }
+    }
+  }
+  &__equality {
+    grid-column: -3/-1;
+    text-align: center;
+    .equality:link,
+    .equality:visited {
+      display: block;
+      text-decoration: none;
+      padding: 1rem;
+      color: #fff;
+      border: 0.1rem solid transparent;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      .equality:link,
+      .equality:visited {
+        color: #4895ef;
+      }
+      .equality:hover {
+        color: #4cc9f0;
+        border-color: #4895ef;
+      }
+      .equality:active {
+        background-color: #4895ef;
+      }
+    }
+  }
+}

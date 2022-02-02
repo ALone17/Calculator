@@ -1,0 +1,29 @@
+.calc_head {
+  font-size: 5.2rem;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4.8rem 0;
+  background-image: linear-gradient(to bottom, #b5179e, #f72585);
+  -webkit-background-clip: text;
+  text-shadow: 0.1rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
+  @media (max-width: 26.56em) {
+    font-size: 3rem;
+  }
+}
+
+.calc_head:hover {
+  animation: scaleRotateX;
+  animation-duration: 1s;
+}
+
+@keyframes scaleRotateX {
+  80% {
+    transform: scale(1.5) rotateX(180deg);
+  }
+
+  100% {
+    transform: scale(1) rotateX(360deg);
+  }
+}

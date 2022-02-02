@@ -1,0 +1,21 @@
+// MEDIA QUERY MANAGER
+@mixin respond($beakpoint) {
+  @if $beakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      // 600px
+      @content;
+    }
+  }
+  @if $beakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      // 900px
+      @content;
+    }
+  }
+  @if $beakpoint == tab-land {
+    @media only screen and (max-width: 90em) {
+      // 1440px
+      @content;
+    }
+  }
+}

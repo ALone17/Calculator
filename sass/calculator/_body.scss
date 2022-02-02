@@ -1,0 +1,26 @@
+.calc__body {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #212529;
+  padding: 3.6rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.336);
+  @media (max-width: 90em) {
+    width: 30%;
+  }
+  @media (max-width: 75em) {
+    width: 35%;
+  }
+  @media (max-width: 48em) {
+    width: 50%;
+  }
+  @media (max-width: 26.56em) {
+    width: 80%;
+  }
+  @media (max-width: 23.43em) {
+    width: 95%;
+  }
+}

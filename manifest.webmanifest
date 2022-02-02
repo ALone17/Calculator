@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "img/icons/Calculator-appel.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icons/Calculator-and.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
