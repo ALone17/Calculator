@@ -1,4 +1,6 @@
 .display {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   top: 15%;
   left: 50%;
@@ -26,19 +28,4 @@
 .calc_display__number::-webkit-inner-spin-button,
 .calc_display__number::-webkit-outer-spin-button {
   display: none;
-}
-
-.number_one {
-  float: left;
-  display: inline-block;
-}
-
-.number_two {
-  float: left;
-  display: inline-block;
-}
-
-.operations {
-  float: left;
-  display: inline-block;
 }
